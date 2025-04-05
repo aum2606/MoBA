@@ -1,0 +1,57 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pytorch specific
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# Generated visualizations and outputs
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.csv
+
+# Logs and temporary files
+logs/
+*.log
+tmp/
+temp/
+
+# Cache directories
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model outputs and checkpoints
+checkpoints/
+runs/
+outputs/ 
